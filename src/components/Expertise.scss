@@ -89,3 +89,42 @@
         }
     }
 }
+
+
+
+.light-mode {
+  // Timeline dates
+  .vertical-timeline--two-columns .vertical-timeline-element-date {
+    color: #555; // darker gray for readability
+  }
+
+  // Timeline content text
+  .vertical-timeline-element-content {
+    color: #0d1116; // dark text
+    background-color: #fff; // white card background
+  }
+
+  // Timeline content box shadow
+  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15); // subtle shadow
+  }
+
+  // Arrow
+  .vertical-timeline-element-content-arrow {
+    border-right: 7px solid #e0e0e0 !important;
+  }
+
+  // Chip titles
+  .flex-chips .chip-title {
+    color: #0d1116; // dark text
+  }
+
+  // Chips
+  .chip {
+    background-color: #f0f0f0 !important; // light gray
+    color: #0d1116 !important;
+    span {
+      color: #0d1116;
+    }
+  }
+}
